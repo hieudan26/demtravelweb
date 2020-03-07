@@ -81,11 +81,16 @@ a
 }
 .nav-menu
 {
-	display: block;
+	display: none;
 	position: absolute;
 	top: 100%;
+	left:0;
+	width: 100%;
+}
+.side-bar-nav:hover .nav-menu
+{
+	display: block;
 	min-height: 30rem;
-	
 }
 .nav-menu li 
 {
@@ -103,10 +108,19 @@ a
 .has-menu
 {
 	width: 100%;
-	border: 1px solid #999;
-	display: block;
+	border: 1px solid #2C3038;
+	display: none;
+	margin-top: 1rem;
 }
 .nav-menu li:hover .has-menu
 {
 	display: block;
+}
+.nav-menu button
+{
+	padding: 1rem;
+	color: white;
+	font-size: 1.5rem;
+	background-color: #2C3038;
+	margin-left: 2rem;
 }
