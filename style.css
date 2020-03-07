@@ -1,0 +1,112 @@
+html
+{
+	font-size: 2rem;
+}
+body
+{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	width: 100%;
+}
+ul li
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+.side-bar
+{
+	min-height: 5rem;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 1.15rem;
+	position: relative;
+	box-sizing: border-box;
+}
+.side-bar .side-bar-content
+{
+	width: 90%;
+	display: flex;
+	align-items: center;	
+}
+.center-item
+{
+	flex-grow: 1;
+}
+.search-icon
+{
+	font-size: 1.5rem;
+	margin-right: 2.25rem;
+	font-weight: 200;
+}
+.side-bar-nav
+{
+	height: 60%;
+	min-width: 3.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.side-bar-nav span
+{
+	display: block;
+	width: 100%;
+	height: 0.375rem;
+	background-color: black;
+	margin: 0.5rem 0;
+	border-radius: 20%;
+	transform-origin: left;
+	transition: 0.5s;
+}
+.side-bar-nav:hover span:first-child
+{
+
+	transform: rotate(30deg);
+}
+.side-bar-nav:hover span:last-child
+{
+	transform: rotate(-30deg);
+}
+.side-bar-nav:hover span:nth-child(2)
+{
+	opacity: 0;
+}
+.nav-menu
+{
+	display: block;
+	position: absolute;
+	top: 100%;
+	min-height: 30rem;
+	
+}
+.nav-menu li 
+{
+	font-size: 1.5rem;
+	color: #000;
+	padding: 0.5rem;
+	width: 100%;
+}
+.nav-menu li a i
+{
+	font-size: 1rem;
+	color: #000;
+	padding-top: -0.2rem; 
+}
+.has-menu
+{
+	width: 100%;
+	border: 1px solid #999;
+	display: block;
+}
+.nav-menu li:hover .has-menu
+{
+	display: block;
+}
