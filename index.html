@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="component.css">
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div class="side-bar">
@@ -13,16 +14,16 @@
 			<a href="#" class="center-item"><h1>Travelling</h1></a>
 			<ul></ul>
 			<div class="side-bar-nav">
-				<div class="nav-icon">
+				<div class="nav-icon" id="id-nav">
 					<span></span>
 					<span></span>
 					<span></span>
 				</div>
-				<div class="nav-menu">
+				<div class="nav-menu " >
 					<ul class="menu">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About</a></li>
-						<li><a href="#">Pages  <i class="fas fa-chevron-down"></i></a>
+						<li class=" active-click"><a href="#" class="">Pages  <i class="fas fa-chevron-down"></i></a>
 							<ul class="has-menu" >
 								<li><a href="#">Services</a></li>
 								<li><a href="#">Princing</a></li>
@@ -42,14 +43,14 @@
 								<li><a href="#">Email Teamplate</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Blog <i class="fas fa-chevron-down"></i></a>
-							<ul class="has-menu" >
+						<li class=" active-click"><a href="#">Blog <i class="fas fa-chevron-down"></i></a>
+							<ul class="has-menu">
 								<li><a href="#">Blog</a></li>
 								<li><a href="#">Blog Single</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Shop <i class="fas fa-chevron-down"></i></a>
-							<ul class="has-menu" >
+						<li class=" active-click"><a href="#">Shop <i class="fas fa-chevron-down"></i></a>
+							<ul class="has-menu active-click" >
 								<li><a href="#">Ecommecer</a></li>
 								<li><a href="#">Ecommecer Single</a></li>
 								<li><a href="#">Ecommecer Cart</a></li>
@@ -70,5 +71,6 @@
 	<div class="footer">
 		
 	</div>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
