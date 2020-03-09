@@ -1,6 +1,6 @@
 html
 {
-	font-size: 0.75rem;
+	font-size: 0.7rem;
 }
 body
 {
@@ -137,30 +137,7 @@ a
 	background-image: url(picture/ba1.jpg) ;
 	background-size: cover;
 	background-position: center;
-}
-#pleft,#pright
-{
-	font-size: 1rem;
-	margin: 1rem;
-
-}
-.content-head button
-{
-	padding: 1.3rem;
-	color: black;
-	font-size: 1.3rem;
-	background-color:#fff ;
-	border: none;
-}
-.content-head
-{
-	margin-left: 0.5rem;
-	color: #FFF;
-}
-.content-head *
-{
-	flex-grow: 1;
-	margin-bottom: 2.5rem;
+	overflow: hidden;
 }
 .overlay
 {
@@ -168,27 +145,72 @@ a
 	min-height: 50rem;
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	color: #FFF;
 	font-size: 1.35rem;
 	background-color: rgba(0,0,0,0.4);
 	position: relative;
+	
+}
+
+#pleft,#pright
+{
+	font-size: 1rem;
+	margin: 1rem;
+	flex-grow: 0;
+}
+.content-head button
+{
+	padding: 1rem 1.3rem;
+	color: black;
+	font-size: 1.3rem;
+	background-color:#fff ;
+	border: none;
+}
+#content-head-div
+{
+	width: 100%;
+	display: flex;
+	flex-grow: 1;
+}
+.content-head
+{
+	margin-left: 0.5rem;
+	color: #EEE;
+	max-width: 40rem;
+	font-size: 1.2rem;
+}
+.content-head *
+{
+	flex-grow: 1;
+	margin-bottom: 2.5rem;
+
+}
+.content-head h1
+{
+	font-size: 3rem;
+	font-weight: 0;
+}
+.content-head p
+{
+	line-height: 2rem;
+	color: #DDD;
 }
 .button-change
 {
 	position: absolute;
 	bottom: 0;
-	left: 47%;
-	width: 5rem;
+	left: 43%;
+	width: 7rem;
 	display: flex;
 	justify-content: space-around;
 	margin: 0;
 }
 .button-change span
 {
-	max-width: 5px;
-	height: 5px;
+	max-width: 8px;
+	height: 8px;
 	border-radius: 50%;
 	border: 0.2rem solid white;
 }

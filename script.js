@@ -1,6 +1,12 @@
 var ListActive=document.getElementsByClassName('active-click');
 var Iconactive=document.getElementById('id-nav');
 var menu=document.getElementById('id-nav-menu');
+var titleHead=["JOURNEY","GREAT EXPERIENCE","ENJOY","WHAT NEXT COUNTRY?"];
+var Name=["Exploring The World","For Traveling Anywhere","Your Dream Vacation","Discover Night Francisco"];
+var Content=["Once aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur consectetur adipiscing elit.",
+"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum mollit anim id est.",
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium sunt in culpa qui laborum.",
+"Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."];
 for(let i of ListActive)
 	i.addEventListener("click",function(){
 		var child=this.childNodes[2];
