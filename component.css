@@ -82,7 +82,7 @@
 	.body-content1> form
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr!important;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
 		grid-template-rows: repeat(1,1fr) !important;
 	}
 }
@@ -173,5 +173,57 @@
 		position: static !important;
 		background-color: white;
 		z-index: 1;
+	}
+	.side-bar-nav
+	{
+		display: block!important;
+	}
+	.nav-icon
+	{
+		display: none!important;
+	}
+	.nav-menu
+	{
+		font-size: 1.5rem;
+		position: static !important;
+		height: 100%!important;
+		min-height: 0rem !important;
+		display: flex!important;
+		background-color: #fff;
+		overflow: unset!important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	.menu
+	{
+		display: flex!important;
+		position: static !important;
+		align-items: center!important;
+		justify-content: center!important;
+		margin: 0!important;
+	}
+	.menu >li
+	{
+		width: 8rem!important;
+	}
+	.nav-menu button
+	{
+		padding: 1rem;
+		color: #fff;
+		font-size: 1.5rem;
+		background-color: #2C3038;
+		margin-left: 2rem;
+		height: 80%;
+	}
+	.has-menu
+	{
+		position: absolute;
+		background-color: white;
+		width: auto !important;
+	}
+	.active-click:hover .has-menu
+	{
+		display: block!important;
+		
 	}
 }
