@@ -15,8 +15,8 @@ body
 	font-family: sans-serif;
 	font-size: 1rem;
 	width: 100%;
-	margin-top: 1rem;
-	letter-spacing: 0.1rem;
+	margin-top: 0.5rem;
+	letter-spacing: 0.5px;
 }
 ul li
 {
@@ -65,7 +65,6 @@ a
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 .side-bar-nav span
 {
 	display: block;
@@ -138,7 +137,6 @@ a
 /*header */
 .header
 {
-	margin-top: 5rem;
 	background-image: url(picture/ba1.jpg) ;
 	background-size: cover;
 	background-position: center;
@@ -231,7 +229,7 @@ a
 }
 .section-body
 {
-	max-width: 95%;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -239,6 +237,7 @@ a
 .body-content1
 {	
 	border: 0.1px solid #DDD; 
+	margin-bottom: 4rem;
 }
 .body-content1 > *
 {	
@@ -259,18 +258,22 @@ a
 }
 .body-content1> form
 {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5,1fr);
+	grid-gap: 1rem;
 	align-items: center;
-	width: 80%;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 100%;
 }
 .body-content1> form input
 {
 	width: 100%;
 	padding: 1.5rem;
-	margin-bottom: 0.75rem;
 	border: 0.1px solid #EEE;
 	background-color: rgb(243,243,243);
+	box-sizing: border-box;
 }
 #submit
 {
@@ -278,7 +281,6 @@ a
 	font-size: 1.3rem;
 	font-weight: 600;
 	color: #EEE;
-	width: 113%;
 }
 .text-content
 {
@@ -412,6 +414,7 @@ a
 }
 .ex-icon
 {
+	width: 80%;
 	margin-top: 3rem;
 	display: grid;
 	grid-template-rows: repeat(3,1fr);
@@ -490,20 +493,24 @@ a
 {
 	background-color: rgb(3, 20, 39);
 	color: white;
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr; 
 	align-items: center;
 	justify-content: center;
 	width: 100%;
 	padding: 5rem 0;
 }
-.statistic div:first-child,.statistic div:nth-child(2)
+.statistic div
 {
-	width: 50%;
 	text-align: center;
-	margin-bottom: 2rem;
-	padding-bottom: 2rem;
-	border-bottom: 1px solid black;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+.statistic div hr
+{
+	text-align: center;
+	width: 50%;
 }
 .statistic div h1
 {
@@ -524,6 +531,7 @@ a
 }
 .team .team-has-img
 {
+	width: 80%;
 	width: 100%;
 	margin-top: 3rem;
 	display: grid;
@@ -546,4 +554,127 @@ a
 {
 	font-size: 1.8rem;
 }
+.clients
+{
+	margin-bottom: 5rem;
+}
+.clients h2
+{
+	font-size: 2.5rem;
+}
+.custumers
+{
+	width: 90%;
+	display: grid;
+	grid-template-rows: repeat(3,1fr);
+	grid-template-columns: 1fr;
+	grid-gap: 3rem;
+}
+
+.a-custumer
+{
+	padding:2.5rem 2rem;
+	border: 1px solid #DDD;
+}
+.a-custumer p
+{
+	line-height: 2.5rem;
+	margin-bottom: 4rem;
+}
+.a-custumer .cus-banner
+{
+	display: flex;
+	height: 5rem;
+	align-items: center;
+
+}
+.cus-banner img
+{
+	width: 5rem;
+	border-radius: 50%;
+	margin-right: 2rem; 
+}
+.cus-banner .cus-info *
+{
+	margin: 0rem;
+	font-size: 1rem;
+}
+.cus-banner .cus-info a
+{
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.cus-banner .cus-info p
+{
+	font-size: 1.1rem !important;
+}
+.footer
+{
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1.5rem;
+	background-color: rgb(3, 20, 39);	
+	color: white;
+}
+.foot-content
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6,auto);
+	grid-gap: 1rem;
+}
+
+.footer .cl-foot h3
+{
+	font-size: 1.5rem;
+}
+.footer .cl-foot p
+{
+	font-size: 1.3rem !important;
+	color: #ffffffb3;
+}
+.footer .cl-foot input
+{
+	width: 60%;
+	margin: 0;
+	padding: 1rem 1.5rem;
+	border: none;
+	margin-bottom: 1rem;
+}
+.footer .cl-foot .button
+{
+	width: 20%;
+	font-size: 1.2rem;
+	background-color: white;
+	color: black;
+	margin: 0;
+}
+.foot-sign h1
+{
+	font-size: 2.8rem;
+}
+.foot-sign p
+{
+	color: #ffffffb3;
+	font-size: 1.3rem !important;
+}
+.foot-sign a
+{
+	color: white;
+}
+.foot-sign	
+{
+
+	margin-left: 3rem;
+	margin-right: 5rem;
+}
+
+
+
+
+
+
 
