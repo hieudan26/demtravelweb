@@ -2,14 +2,14 @@
 	.list-products
 	{
 		display: grid;
-		grid-template-columns: repeat(2,1fr) !important;
-		grid-template-rows: repeat(3,1fr)!important;
+		grid-template-columns: repeat(2,1fr) ;
+		grid-template-rows: repeat(3,1fr);
 	}
 	.foot-content
 	{
 	display: grid;
-	grid-template-columns: 1fr 1fr !important;
-	grid-template-rows: repeat(4,auto) !important;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: repeat(4,auto) ;
 	grid-gap: 1rem;
 	}
 	.picture-demo
@@ -23,37 +23,37 @@
 	.statistic
 	{
 		display: flex;
-		grid-template-columns: 1fr 1fr 1fr !important;
-		grid-template-rows: 1fr !important;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-template-rows: 1fr ;
 	}
 	.ex-icon
 	{
 		margin-top: 3rem;
 		display: grid;
-		grid-template-rows: 1fr 1fr !important;
-		grid-template-columns: 1fr 1fr !important;
+		grid-template-rows: 1fr 1fr ;
+		grid-template-columns: 1fr 1fr ;
 		grid-gap: 8rem;
 		padding: 1.5rem;
 	}
 	.body-content1> form
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr !important;
-		grid-template-rows: repeat(3,1fr) !important;
+		grid-template-columns: 1fr 1fr ;
+		grid-template-rows: repeat(3,1fr) ;
 	}
 }
 @media(min-width: 750px) {
 	.list-products
 	{
 		display: grid;
-		grid-template-columns: repeat(3,1fr) !important;
-		grid-template-rows: repeat(2,1fr)!important;
+		grid-template-columns: repeat(3,1fr) ;
+		grid-template-rows: repeat(2,1fr);
 	}
 	.foot-content
 	{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr !important;
-	grid-template-rows: repeat(3,auto) !important;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: repeat(3,auto) ;
 	grid-gap: 1rem;
 	}
 	.picture-demo
@@ -67,47 +67,47 @@
 	.statistic
 	{
 		display: flex;
-		grid-template-columns: 1fr 1fr 1fr !important;
-		grid-template-rows: 1fr !important;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-template-rows: 1fr ;
 	}
 	.ex-icon
 	{
 		margin-top: 3rem;
 		display: grid;
-		grid-template-rows: 1fr 1fr !important;
-		grid-template-columns: 1fr 1fr !important;
+		grid-template-rows: 1fr 1fr ;
+		grid-template-columns: 1fr 1fr ;
 		grid-gap: 8rem;
 		padding: 1.5rem;
 	}
 	.body-content1> form
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
-		grid-template-rows: repeat(1,1fr) !important;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+		grid-template-rows: repeat(1,1fr) ;
 	}
 }
 @media(min-width: 1200px) {
 	body
 	{
-		margin-top: 0!important;
+		margin-top: 0;
 	}
 	.list-products
 	{
 		display: grid;
-		grid-template-columns: repeat(5,1fr) !important;
-		grid-template-rows: repeat(1,1fr)!important;
+		grid-template-columns: repeat(5,1fr) ;
+		grid-template-rows: repeat(1,1fr);
 	}
 	.foot-content
 	{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
-	grid-template-rows: repeat(4,auto) !important;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-rows: repeat(4,auto) ;
 	grid-gap: 1rem;
 	}
 	.team-has-img
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr!important;
+		grid-template-columns: 1fr 1fr 1fr 1fr !important;
 		grid-template-rows: repeat(1,1fr) !important;
 		grid-gap: 2rem;
 		margin-bottom: 3rem;
@@ -115,39 +115,39 @@
 	.statistic
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr !important;
-		grid-template-rows: 1fr !important;
+		grid-template-columns: 1fr 1fr 1fr ;
+		grid-template-rows: 1fr ;
 	}
 	.ex-icon
 	{
 		margin-top: 3rem;
 		display: grid;
-		grid-template-rows: 1fr  !important;
-		grid-template-columns:1fr 1fr 1fr !important;
+		grid-template-rows: 1fr  ;
+		grid-template-columns:1fr 1fr 1fr ;
 		grid-gap: 8rem;
 		padding: 1.5rem;
 	}
 	.body-content1> form
 	{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
-		grid-template-rows: repeat(1,1fr) !important;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+		grid-template-rows: repeat(1,1fr) ;
 	}
 	.footer
 	{
-		flex-direction: row-reverse !important;
+		flex-direction: row-reverse ;
 	}
 	.custumers
 	{
 		display: grid;
-		grid-template-rows: repeat(1,1fr) !important;
-		grid-template-columns: 1fr 1fr 1fr !important;
+		grid-template-rows: repeat(1,1fr) ;
+		grid-template-columns: 1fr 1fr 1fr ;
 		grid-gap: 3rem;
 	}
 	.ex-on
 	{
 		display: flex;
-		flex-direction: row !important;
+		flex-direction: row ;
 		padding: 1rem;
 		margin-bottom: 3rem;
 	}
@@ -170,41 +170,41 @@
 	{
 		width: 100%;
 		display: block;
-		position: static !important;
+		position: static ;
 		background-color: white;
 		z-index: 1;
 	}
 	.side-bar-nav
 	{
-		display: block!important;
+		display: block;
 	}
 	.nav-icon
 	{
-		display: none!important;
+		display: none;
 	}
 	.nav-menu
 	{
 		font-size: 1.5rem;
-		position: static !important;
-		height: 100%!important;
-		min-height: 0rem !important;
-		display: flex!important;
+		position: static ;
+		height: 100%;
+		min-height: 0rem ;
+		display: flex;
 		background-color: #fff;
-		overflow: unset!important;
-		justify-content: center !important;
-		align-items: center !important;
+		overflow: unset;
+		justify-content: center ;
+		align-items: center ;
 	}
 	.menu
 	{
-		display: flex!important;
-		position: static !important;
-		align-items: center!important;
-		justify-content: center!important;
-		margin: 0!important;
+		display: flex;
+		position: static ;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
 	}
 	.menu >li
 	{
-		width: 8rem!important;
+		width: 8rem;
 	}
 	.nav-menu button
 	{
@@ -219,11 +219,11 @@
 	{
 		position: absolute;
 		background-color: white;
-		width: auto !important;
+		width: auto ;
 	}
 	.active-click:hover .has-menu
 	{
-		display: block!important;
+		display: block;
 		
 	}
 }
